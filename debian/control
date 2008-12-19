@@ -16,3 +16,10 @@ Description: reduce superfluous executions of idempotent command
  watershed may be run around a command such that any further attempts to
  run the command while another copy is running will only result in one
  initial further attempt.
+
+Package: watershed-udeb
+XC-Package-Type: udeb
+Section: debian-installer
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: reduce superfluous executions of idempotent command
