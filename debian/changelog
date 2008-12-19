@@ -1,3 +1,9 @@
+watershed (3) jaunty; urgency=low
+
+  * Add a udeb, since mdadm and lvm will need that.
+
+ -- Scott James Remnant <scott@ubuntu.com>  Fri, 19 Dec 2008 05:37:05 +0000
+
 watershed (2) jaunty; urgency=low
 
   * Add replaces for older udev.
