@@ -1,0 +1,5 @@
+watershed (1) jaunty; urgency=low
+
+  * Initial Release, separated out from udev package.
+
+ -- Scott James Remnant <scott@ubuntu.com>  Fri, 19 Dec 2008 03:54:46 +0000
