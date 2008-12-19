@@ -1,3 +1,9 @@
+watershed (2) jaunty; urgency=low
+
+  * Add replaces for older udev.
+
+ -- Scott James Remnant <scott@ubuntu.com>  Fri, 19 Dec 2008 04:05:56 +0000
+
 watershed (1) jaunty; urgency=low
 
   * Initial Release, separated out from udev package.

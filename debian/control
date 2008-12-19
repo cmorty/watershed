@@ -4,12 +4,14 @@ Priority: extra
 Maintainer: Scott James Remnant <scott@ubuntu.com>
 Build-Depends: cdbs, debhelper (>= 7), libnettle-dev
 Standards-Version: 3.7.3
+Vcs-Bzr: http://bazaar.launchpad.net/~ubuntu-core-dev/watershed/ubuntu
 
 Package: watershed
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Enhances: udev
 Recommends: udev
+Replaces: udev (<< 135-1)
 Description: reduce superfluous executions of idempotent command
  watershed may be run around a command such that any further attempts to
  run the command while another copy is running will only result in one
