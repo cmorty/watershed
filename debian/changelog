@@ -1,3 +1,9 @@
+watershed (2) jaunty; urgency=low
+
+  * Install the watershed binary to the initramfs.
+
+ -- Scott James Remnant <scott@ubuntu.com>  Fri, 09 Jan 2009 12:32:39 +0000
+
 watershed (1) jaunty; urgency=low
 
   * Initial Release, separated out from udev package.
