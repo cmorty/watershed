@@ -19,4 +19,7 @@ esac
 
 . /usr/share/initramfs-tools/hook-functions
 
+# default statedir
+mkdir -p ${DESTDIR}/var/run/watershed
+
 copy_exec /lib/udev/watershed /lib/udev

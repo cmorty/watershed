@@ -1,3 +1,11 @@
+watershed (3) jaunty; urgency=low
+
+  * Create default statedir /var/run/watershed in initramfs hook; fixes boot
+    with root on LVM; thanks Albert Damen; LP: #314879.
+  * Update initramfs in postinst's configure if update-initramfs is available.
+
+ -- Loic Minier <lool@dooz.org>  Sun, 11 Jan 2009 14:29:52 +0100
+
 watershed (2) jaunty; urgency=low
 
   * Install the watershed binary to the initramfs.
