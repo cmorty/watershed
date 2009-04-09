@@ -1,4 +1,4 @@
-watershed (4) UNRELEASED; urgency=low
+watershed (4) jaunty; urgency=low
 
   * debian/control: Depend on initramfs-tools so system is not potentially
     rendered unbootable (LP: #358654).
