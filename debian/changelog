@@ -1,3 +1,10 @@
+watershed (4) UNRELEASED; urgency=low
+
+  * debian/control: Depend on initramfs-tools so system is not potentially
+    rendered unbootable (LP: #358654).
+
+ -- Kees Cook <kees@ubuntu.com>  Thu, 09 Apr 2009 12:32:54 -0700
+
 watershed (3) jaunty; urgency=low
 
   * Create default statedir /var/run/watershed in initramfs hook; fixes boot

@@ -8,7 +8,7 @@ Vcs-Bzr: http://bazaar.launchpad.net/~ubuntu-core-dev/watershed/ubuntu
 
 Package: watershed
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, initramfs-tools
 Enhances: udev
 Recommends: udev
 Replaces: udev (<< 135-1)
