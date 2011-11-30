@@ -2,6 +2,7 @@ watershed (6) UNRELEASED; urgency=low
 
   * Pass -l:libnettle.a instead of /usr/lib/libnettle.a in LIB_OBJS; this
     avoids hardcoding the path which just changed with multiarch; fixes FTBFS.
+  * Bump Standards-Version to 3.9.2.
 
  -- Loïc Minier <loic.minier@ubuntu.com>  Thu, 01 Dec 2011 00:12:13 +0100
 

@@ -3,7 +3,7 @@ Section: admin
 Priority: extra
 Maintainer: Scott James Remnant <scott@ubuntu.com>
 Build-Depends: cdbs, debhelper (>= 7), nettle-dev
-Standards-Version: 3.8.4
+Standards-Version: 3.9.2
 Vcs-Bzr: http://bazaar.launchpad.net/~ubuntu-core-dev/watershed/ubuntu
 
 Package: watershed
