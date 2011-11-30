@@ -32,7 +32,7 @@ LD = gcc
 E = @echo
 Q = @
 
-LIB_OBJS += /usr/lib/libnettle.a
+LIB_OBJS += -l:libnettle.a
 
 all: $(PROG) $(MAN_PAGES)
 .PHONY: all
