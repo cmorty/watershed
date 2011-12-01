@@ -1,7 +1,8 @@
 #!/usr/bin/make -f
 
-include /usr/share/cdbs/1/rules/debhelper.mk
-include /usr/share/cdbs/1/class/makefile.mk
+override_dh_auto_install:
+	$(MAKE) install-bin DESTDIR=$(CURDIR)/debian/tmp
 
-DEB_MAKE_INSTALL_TARGET = install-bin DESTDIR=$(DEB_DESTDIR)
+%:
+	dh $@
 
