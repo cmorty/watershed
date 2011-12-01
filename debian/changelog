@@ -1,4 +1,4 @@
-watershed (6) UNRELEASED; urgency=low
+watershed (6) precise; urgency=low
 
   * Pass -l:libnettle.a instead of /usr/lib/libnettle.a in LIB_OBJS; this
     avoids hardcoding the path which just changed with multiarch; fixes FTBFS.
