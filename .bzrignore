@@ -1,0 +1,7 @@
+/watershed
+/debian/*.debhelper.log
+/debian/*.substvars
+/debian/files
+/debian/tmp/
+/debian/watershed/
+/debian/watershed-udeb/
