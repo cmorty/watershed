@@ -6,6 +6,8 @@ watershed (6) UNRELEASED; urgency=low
   * Set debian/source/format to "3.0 (native)".
   * Make debian/watershed.initramfs-hook +x in the source; native source
     package can transport this permission.
+  * Move debian/watershed.initramfs-hook to debian/initramfs-hook/watershed
+    and install it via dh_install instead of calling install in rules.
 
  -- Loïc Minier <loic.minier@ubuntu.com>  Thu, 01 Dec 2011 00:12:13 +0100
 

@@ -5,8 +5,3 @@ include /usr/share/cdbs/1/class/makefile.mk
 
 DEB_MAKE_INSTALL_TARGET = install-bin DESTDIR=$(DEB_DESTDIR)
 
-
-install/watershed::
-	install -D -m 755 -o root -g root debian/watershed.initramfs-hook \
-		debian/watershed/usr/share/initramfs-tools/hooks/watershed
-

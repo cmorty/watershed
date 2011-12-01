@@ -1,1 +1,2 @@
+debian/initramfs-hook/watershed usr/share/initramfs-tools/hooks
 lib/udev/watershed
