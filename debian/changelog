@@ -4,6 +4,8 @@ watershed (6) UNRELEASED; urgency=low
     avoids hardcoding the path which just changed with multiarch; fixes FTBFS.
   * Bump Standards-Version to 3.9.2.
   * Set debian/source/format to "3.0 (native)".
+  * Make debian/watershed.initramfs-hook +x in the source; native source
+    package can transport this permission.
 
  -- Loïc Minier <loic.minier@ubuntu.com>  Thu, 01 Dec 2011 00:12:13 +0100
 
