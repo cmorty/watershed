@@ -1,5 +1,8 @@
 #!/usr/bin/make -f
 
+override_dh_auto_build:
+	dh_auto_build -- Q=
+
 override_dh_auto_install:
 	$(MAKE) install-bin DESTDIR=$(CURDIR)/debian/tmp
 

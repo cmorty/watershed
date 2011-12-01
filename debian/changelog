@@ -10,6 +10,7 @@ watershed (6) UNRELEASED; urgency=low
     and install it via dh_install instead of calling install in rules.
   * Convert package from cdbs to dh using debhelper compat level 9 for
     dpkg-buildflags support.
+  * Override dh_auto_build to pass Q= to make as to see actual build commands.
 
  -- Loïc Minier <loic.minier@ubuntu.com>  Thu, 01 Dec 2011 00:12:13 +0100
 
