@@ -1,8 +1,8 @@
-watershed (7) UNRELEASED; urgency=low
+watershed (7) raring; urgency=low
 
   * Use correct compiler when cross-building.
 
- -- Colin Watson <cjwatson@ubuntu.com>  Tue, 04 Dec 2012 14:50:22 +0000
+ -- Colin Watson <cjwatson@ubuntu.com>  Tue, 04 Dec 2012 14:53:46 +0000
 
 watershed (6) precise; urgency=low
 
