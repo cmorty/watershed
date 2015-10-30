@@ -8,9 +8,8 @@ Vcs-Bzr: http://bazaar.launchpad.net/~ubuntu-core-dev/watershed/ubuntu
 
 Package: watershed
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, initramfs-tools
-Enhances: udev
-Recommends: udev
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Enhances: udev, initramfs-tools
 Replaces: udev (<< 135-1)
 Description: reduce superfluous executions of idempotent command
  watershed may be run around a command such that any further attempts to
